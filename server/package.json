@@ -1,0 +1,19 @@
+{
+  "name": "aaradhya-setu-server",
+  "version": "1.0.0",
+  "description": "Backend for Aaradhya Setu Admin - Puja Booking Workflow and Notifications",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongodb-memory-server": "^10.4.3",
+    "mongoose": "^8.7.0",
+    "morgan": "^1.10.0"
+  }
+}
